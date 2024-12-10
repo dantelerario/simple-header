@@ -1,6 +1,24 @@
 {
   "name": "@dl-test/simple-header",
   "version": "0.0.1",
+  "main": "dist/simple-header/bundles/simple-header.umd.js",
+  "module": "dist/simple-header/fesm2015/simple-header.js",
+  "es2015": "dist/simple-header/fesm2015/simple-header.js",
+  "esm2015": "dist/simple-header/esm2015/simple-header.js",
+  "fesm2015": "dist/simple-header/fesm2015/simple-header.js",
+  "typings": "dist/simple-header/simple-header.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./dist/simple-header/simple-header.d.ts",
+      "esm2015": "./dist/simple-header/esm2015/simple-header.js",
+      "es2015": "./dist/simple-header/fesm2015/simple-header.js",
+      "node": "./dist/simple-header/fesm2015/simple-header.js",
+      "default": "./dist/simple-header/fesm2015/simple-header.js"
+    }
+  },
   "peerDependencies": {
     "@angular/common": "^16.0.0",
     "@angular/core": "^16.0.0"
