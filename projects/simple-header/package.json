@@ -1,5 +1,5 @@
 {
-  "name": "simple-header",
+  "name": "@dl-test/simple-header",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
